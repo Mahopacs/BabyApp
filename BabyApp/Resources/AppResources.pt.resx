@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>pt</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Item de menu</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Vaca</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Pato</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Leão</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Bebê Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Elefante</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Porco</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Tamanduá</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antílope</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Texugo</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Urso</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Borboleta</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Camaleão</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Chita</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Caranguejo</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Cão</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Golfinho</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>Libélula</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Águia</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Alce</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Peixe</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Girafa</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Minhas</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Hipopótamo</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Cavalo</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Iguana</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Canguru</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Gatinho</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Coala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Lemur</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Arara</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Marmot</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Macaco</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Jaguatirica</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Polvo</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orca</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Lontra</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Coruja</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Pinguim</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Coelho</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>RedFox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>RedPanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Rinoceronte</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Tubarão</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Ovelha</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Família Scincidae</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Cobra</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Lula</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Esquilo</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Estrela do mar</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>SumatranTiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Irara</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tigre</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Tartaruga</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Morsa</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Lobo</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Mais Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Desenhos animados</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Línguas (escolha até 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Reproduzir música</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Tocar sons</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Taxa de</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Taxa de</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Mostrar o texto</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Jacaré</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Crocodilo</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Veado</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Burro</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Sapo</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Lhama</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camelo</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Chimpanzé</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopardo</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Galo</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Gaivota</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turquia</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Abelha</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Cougar</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Cabra</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Falcão</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Mosquito</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Jogar</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Bebê</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Criança</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Animais</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Língua</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Aprendizagem</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Bebê</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Criança</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Animais</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Língua</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Aprendizagem</value>
+  </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Guaxinim</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Trazido a você por:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Créditos:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Créditos da imagem:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Créditos de som:</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Só pode seleccionar até 3 idiomas.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Deve selecionar pelo menos 1 língua.</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Opções de Tom de ensino</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom de ensino</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Interruptor</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dias deixaram em seu julgamento.  Deseja comprar?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Para instalar um idioma de discurso em seu telefone, por favor, siga a operação abaixo:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Clique em 'Configurações'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Clique em 'Discurso' (na aba 'Sistema').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Clique em 'Linguagem de expressão'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Clique sobre o idioma que você gostaria de instalar e siga o download solicita.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Nota: Para ouvir as palavras em língua navtive, pacote de idioma deve ser instalado.  Clique aqui para obter instruções.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Você tem </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Estender o julgamento?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Como este app? Avise todo mundo!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Como este app? Avise todo mundo! Classifique este app?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Como este app? Avise todo mundo!  Adicionaremos cartoon novo 9 e 9 novas fotos muito animais como nossos agradecimentos a você. Classifique este app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Teste expirou</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Seu teste expirou, por favor adquirir o aplicativo para obter mais de 130 fotos e sons!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Lembrete: A versão de avaliação do ensino Tom vem com 27 fotos e sons.  Para adicionar 27 mais imagens e sons para sua versão de teste, simplesmente, taxa este app.  Para obter mais de 130 fotos e sons compra este app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom de ensino</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Teste expirou.  Por favor, compra.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Versão de teste é 27 fotos e sons. Versão completa é de 135 fotos e sons</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Versão de teste é 54 fotos e sons. Versão completa é de 135 fotos e sons</value>
+  </data>
+</root>

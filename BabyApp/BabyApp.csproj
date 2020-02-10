@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2484440C-4420-4BA0-8A0E-C127F24906EB}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BabyApp</RootNamespace>
+    <AssemblyName>BabyApp</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>ar;bg-BG;ca-ES;cs-CZ;da-DK;de;el-GR;en;es;et-EE;fi-FI;fr;ga-IE;he-IL;hi-IN;hu-HU;id-ID;it;ja-JP;ko-KR;lt-LT;lv-LV;nb-NO;nl;pl-PL;pt;ro-RO;ru-RU;sk-SK;sl-SI;th-TH;tr-TR;uk-UA;vi-VN;zh-Hans;zh-Hant</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>BabyApp_$(Configuration)_$(Platform).xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>BabyApp.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>3.0</MultilingualAppToolkitVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Box.cs" />
+    <Compile Include="Help.xaml.cs">
+      <DependentUpon>Help.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Options.xaml.cs">
+      <DependentUpon>Options.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PivotSlide.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Options.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Pics\Animals\alligator480x800.png" />
+    <Content Include="Assets\Pics\Animals\alligator80x100.png" />
+    <Content Include="Assets\Pics\Animals\anteater480x800.png" />
+    <Content Include="Assets\Pics\Animals\anteater80x100.png" />
+    <Content Include="Assets\Pics\Animals\badger480x800.png" />
+    <Content Include="Assets\Pics\Animals\badger80x100.png" />
+    <Content Include="Assets\Pics\Animals\bear480x800.png" />
+    <Content Include="Assets\Pics\Animals\bear80x100.png" />
+    <Content Include="Assets\Pics\Animals\camel480x800.png" />
+    <Content Include="Assets\Pics\Animals\camel80x100.png" />
+    <Content Include="Assets\Pics\Animals\cheetah480x800.png" />
+    <Content Include="Assets\Pics\Animals\cheetah80x100.png" />
+    <Content Include="Assets\Pics\Animals\crocodile480x800.png" />
+    <Content Include="Assets\Pics\Animals\crocodile80x100.png" />
+    <Content Include="Assets\Pics\Animals\deer480x800.png" />
+    <Content Include="Assets\Pics\Animals\deer80x100.png" />
+    <Content Include="Assets\Pics\Animals\dog480x800.png" />
+    <Content Include="Assets\Pics\Animals\dog80x100.png" />
+    <Content Include="Assets\Pics\Animals\dolphin480x800.png" />
+    <Content Include="Assets\Pics\Animals\dolphin80x100.png" />
+    <Content Include="Assets\Pics\Animals\donkey480x800.png" />
+    <Content Include="Assets\Pics\Animals\donkey80x100.png" />
+    <Content Include="Assets\Pics\Animals\duck480x800.png" />
+    <Content Include="Assets\Pics\Animals\duck80x100.png" />
+    <Content Include="Assets\Pics\Animals\eagle480x800.png" />
+    <Content Include="Assets\Pics\Animals\eagle80x100.png" />
+    <Content Include="Assets\Pics\Animals\elephant480x800.png" />
+    <Content Include="Assets\Pics\Animals\elephant80x100.png" />
+    <Content Include="Assets\Pics\Animals\elk480x800.png" />
+    <Content Include="Assets\Pics\Animals\elk80x100.png" />
+    <Content Include="Assets\Pics\Animals\frog480x800.png" />
+    <Content Include="Assets\Pics\Animals\frog80x100.png" />
+    <Content Include="Assets\Pics\Animals\hippopotamus480x800.png" />
+    <Content Include="Assets\Pics\Animals\hippopotamus80x100.png" />
+    <Content Include="Assets\Pics\Animals\horse480x800.png" />
+    <Content Include="Assets\Pics\Animals\horse80x100.png" />
+    <Content Include="Assets\Pics\Animals\jaguar480x800.png" />
+    <Content Include="Assets\Pics\Animals\jaguar80x100.png" />
+    <Content Include="Assets\Pics\Animals\kitten480x800.png" />
+    <Content Include="Assets\Pics\Animals\kitten80x100.png" />
+    <Content Include="Assets\Pics\Animals\koala480x800.png" />
+    <Content Include="Assets\Pics\Animals\koala80x100.png" />
+    <Content Include="Assets\Pics\Animals\lamb480x800.png" />
+    <Content Include="Assets\Pics\Animals\lamb80x100.png" />
+    <Content Include="Assets\Pics\Animals\lemur480x800.png" />
+    <Content Include="Assets\Pics\Animals\lemur80x100.png" />
+    <Content Include="Assets\Pics\Animals\leopard480x800.png" />
+    <Content Include="Assets\Pics\Animals\leopard80x100.png" />
+    <Content Include="Assets\Pics\Animals\lion480x800.png" />
+    <Content Include="Assets\Pics\Animals\lion80x100.png" />
+    <Content Include="Assets\Pics\Animals\llama480x800.png" />
+    <Content Include="Assets\Pics\Animals\llama80x100.png" />
+    <Content Include="Assets\Pics\Animals\macaw480x800.png" />
+    <Content Include="Assets\Pics\Animals\macaw80x100.png" />
+    <Content Include="Assets\Pics\Animals\monkey480x800.png" />
+    <Content Include="Assets\Pics\Animals\monkey80x100.png" />
+    <Content Include="Assets\Pics\Animals\orca480x800.png" />
+    <Content Include="Assets\Pics\Animals\orca80x100.png" />
+    <Content Include="Assets\Pics\Animals\owl480x800.png" />
+    <Content Include="Assets\Pics\Animals\owl80x100.png" />
+    <Content Include="Assets\Pics\Animals\panda480x800.png" />
+    <Content Include="Assets\Pics\Animals\panda80x100.png" />
+    <Content Include="Assets\Pics\Animals\penguin480x800.png" />
+    <Content Include="Assets\Pics\Animals\penguin80x100.png" />
+    <Content Include="Assets\Pics\Animals\pig480x800.png" />
+    <Content Include="Assets\Pics\Animals\pig80x100.png" />
+    <Content Include="Assets\Pics\Animals\polarbear480x800.png" />
+    <Content Include="Assets\Pics\Animals\polarbear80x100.png" />
+    <Content Include="Assets\Pics\Animals\raccoon480x800.png" />
+    <Content Include="Assets\Pics\Animals\raccoon80x100.png" />
+    <Content Include="Assets\Pics\Animals\redfox480x800.png" />
+    <Content Include="Assets\Pics\Animals\redfox80x100.png" />
+    <Content Include="Assets\Pics\Animals\rhino480x800.png" />
+    <Content Include="Assets\Pics\Animals\rhino80x100.png" />
+    <Content Include="Assets\Pics\Animals\rooster480x800.png" />
+    <Content Include="Assets\Pics\Animals\rooster80x100.png" />
+    <Content Include="Assets\Pics\Animals\seagull480x800.png" />
+    <Content Include="Assets\Pics\Animals\seagull80x100.png" />
+    <Content Include="Assets\Pics\Animals\shark480x800.png" />
+    <Content Include="Assets\Pics\Animals\shark80x100.png" />
+    <Content Include="Assets\Pics\Animals\sheep480x800.png" />
+    <Content Include="Assets\Pics\Animals\sheep80x100.png" />
+    <Content Include="Assets\Pics\Animals\snake480x800.png" />
+    <Content Include="Assets\Pics\Animals\snake80x100.png" />
+    <Content Include="Assets\Pics\Animals\squirrel480x800.png" />
+    <Content Include="Assets\Pics\Animals\squirrel80x100.png" />
+    <Content Include="Assets\Pics\Animals\tiger480x800.png" />
+    <Content Include="Assets\Pics\Animals\tiger80x100.png" />
+    <Content Include="Assets\Pics\Animals\turkey480x800.png" />
+    <Content Include="Assets\Pics\Animals\turkey80x100.png" />
+    <Content Include="Assets\Pics\Animals\walrus480x800.png" />
+    <Content Include="Assets\Pics\Animals\walrus80x100.png" />
+    <Content Include="Assets\Pics\Animals\wolf480x800.png" />
+    <Content Include="Assets\Pics\Animals\wolf80x100.png" />
+    <Content Include="Assets\Pics\Animals\zebra480x800.png" />
+    <Content Include="Assets\Pics\Animals\zebra80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\alligator480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\alligator80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\anteater480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\anteater80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\badger480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\badger80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\bear480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\bear80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\camel480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\camel80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\cheetah480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\cheetah80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\crocodile480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\crocodile80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\deer480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\deer80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\dog480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\dog80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\dolphin480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\dolphin80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\donkey480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\donkey80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\duck480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\duck80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\eagle480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\eagle80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\elephant480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\elephant80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\elk480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\elk80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\frog480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\frog80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\hippopotamus480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\hippopotamus80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\horse480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\horse80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\jaguar480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\jaguar80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\kitten480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\kitten80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\koala480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\koala80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\lemur480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\lemur80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\leopard480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\leopard80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\lion480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\lion80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\llama480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\llama80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\macaw480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\macaw80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\monkey480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\monkey80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\orca480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\orca80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\owl480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\owl80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\panda480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\panda80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\penguin480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\penguin80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\pig480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\pig80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\polarbear480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\polarbear80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\raccoon480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\raccoon80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\redfox480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\redfox80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rhino480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rhino80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rhinocerous480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rhinocerous80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rooster480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\rooster80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\seagull480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\seagull80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\sheep480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\sheep80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\snake480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\snake80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\squirrel480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\squirrel80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\tiger480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\tiger80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\turkey480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\turkey80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\walrus480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\walrus80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\wolf480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\wolf80x100.png" />
+    <Content Include="Assets\Pics\BabyAnimals\zebra480x800.png" />
+    <Content Include="Assets\Pics\BabyAnimals\zebra80x100.png" />
+    <Content Include="Assets\Pics\BabyMisc\Airplane.png" />
+    <Content Include="Assets\Pics\BabyMisc\Ambulance.png" />
+    <Content Include="Assets\Pics\BabyMisc\Bike.png" />
+    <Content Include="Assets\Pics\BabyMisc\Camera.png" />
+    <Content Include="Assets\Pics\BabyMisc\Car.png" />
+    <Content Include="Assets\Pics\BabyMisc\Clock.png" />
+    <Content Include="Assets\Pics\BabyMisc\Firetruck.png" />
+    <Content Include="Assets\Pics\BabyMisc\Iron.png" />
+    <Content Include="Assets\Pics\BabyMisc\Key.png" />
+    <Content Include="Assets\Pics\BabyMisc\Lock.png" />
+    <Content Include="Assets\Pics\BabyMisc\Pencil.png" />
+    <Content Include="Assets\Pics\BabyMisc\Phone.png" />
+    <Content Include="Assets\Pics\BabyMisc\Scissors.png" />
+    <Content Include="Assets\Pics\BabyMisc\Stapler.png" />
+    <Content Include="Assets\Pics\BabyMisc\Toothbrush.png" />
+    <Content Include="Assets\Pics\BabyMisc\Tractor.png" />
+    <Content Include="Assets\Pics\BabyMisc\TV.png" />
+    <Content Include="Assets\Pics\BabyMisc\Vacuum.png" />
+    <Content Include="Assets\Pics\questionmark480x800.png" />
+    <Content Include="Assets\Pics\questionmark80x100.png" />
+    <Content Include="Assets\Sounds\Animals\alligator.wav" />
+    <Content Include="Assets\Sounds\Animals\anteater.wav" />
+    <Content Include="Assets\Sounds\Animals\badger.wav" />
+    <Content Include="Assets\Sounds\Animals\bear.wav" />
+    <Content Include="Assets\Sounds\Animals\Camel.wav" />
+    <Content Include="Assets\Sounds\Animals\cheetah.wav" />
+    <Content Include="Assets\Sounds\Animals\crocodile.wav" />
+    <Content Include="Assets\Sounds\Animals\deer.wav" />
+    <Content Include="Assets\Sounds\Animals\Dog.wav" />
+    <Content Include="Assets\Sounds\Animals\dolphin.wav" />
+    <Content Include="Assets\Sounds\Animals\donkey.wav" />
+    <Content Include="Assets\Sounds\Animals\Duck.wav" />
+    <Content Include="Assets\Sounds\Animals\eagle.wav" />
+    <Content Include="Assets\Sounds\Animals\Elephant.wav" />
+    <Content Include="Assets\Sounds\Animals\elk.wav" />
+    <Content Include="Assets\Sounds\Animals\frog.wav" />
+    <Content Include="Assets\Sounds\Animals\hippopotamus.wav" />
+    <Content Include="Assets\Sounds\Animals\Horse.wav" />
+    <Content Include="Assets\Sounds\Animals\jaguar.wav" />
+    <Content Include="Assets\Sounds\Animals\kitten.wav" />
+    <Content Include="Assets\Sounds\Animals\koala.wav" />
+    <Content Include="Assets\Sounds\Animals\lemur.wav" />
+    <Content Include="Assets\Sounds\Animals\Leopard.wav" />
+    <Content Include="Assets\Sounds\Animals\lion.wav" />
+    <Content Include="Assets\Sounds\Animals\llama.wav" />
+    <Content Include="Assets\Sounds\Animals\macaw.wav" />
+    <Content Include="Assets\Sounds\Animals\monkey.wav" />
+    <Content Include="Assets\Sounds\Animals\orca.wav" />
+    <Content Include="Assets\Sounds\Animals\owl.wav" />
+    <Content Include="Assets\Sounds\Animals\panda.wav" />
+    <Content Include="Assets\Sounds\Animals\Peacock.wav" />
+    <Content Include="Assets\Sounds\Animals\penguin.wav" />
+    <Content Include="Assets\Sounds\Animals\Pig.wav" />
+    <Content Include="Assets\Sounds\Animals\polarbear.wav" />
+    <Content Include="Assets\Sounds\Animals\raccoon.wav" />
+    <Content Include="Assets\Sounds\Animals\Rattlesnake.wav" />
+    <Content Include="Assets\Sounds\Animals\redfox.wav" />
+    <Content Include="Assets\Sounds\Animals\Rhinoceros.wav" />
+    <Content Include="Assets\Sounds\Animals\Rooster.wav" />
+    <Content Include="Assets\Sounds\Animals\seagulls.wav" />
+    <Content Include="Assets\Sounds\Animals\Sheep.wav" />
+    <Content Include="Assets\Sounds\Animals\snake.wav" />
+    <Content Include="Assets\Sounds\Animals\squirrel.wav" />
+    <Content Include="Assets\Sounds\Animals\tiger.wav" />
+    <Content Include="Assets\Sounds\Animals\turkey.wav" />
+    <Content Include="Assets\Sounds\Animals\walrus.wav" />
+    <Content Include="Assets\Sounds\Animals\wolf.wav" />
+    <Content Include="Assets\Sounds\Animals\zebra.wav" />
+    <Content Include="Assets\teachingtom300x300.png" />
+    <Content Include="Assets\teachingtom99x99.png" />
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\transport.pause.png" />
+    <Content Include="Assets\transport.play.png" />
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.ar.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ar.xlf</DependentUpon>
+      <culture>ar</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.bg-BG.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.bg-BG.xlf</DependentUpon>
+      <culture>bg-BG</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ca-ES.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ca-ES.xlf</DependentUpon>
+      <culture>ca-ES</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.cs-CZ.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.cs-CZ.xlf</DependentUpon>
+      <culture>cs-CZ</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.da-DK.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.da-DK.xlf</DependentUpon>
+      <culture>da-DK</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.de.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.de.xlf</DependentUpon>
+      <culture>de</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.el-GR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.el-GR.xlf</DependentUpon>
+      <culture>el-GR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.en.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.en.xlf</DependentUpon>
+      <culture>en</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.es.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.es.xlf</DependentUpon>
+      <culture>es</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.et-EE.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.et-EE.xlf</DependentUpon>
+      <culture>et-EE</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fi-FI.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fi-FI.xlf</DependentUpon>
+      <culture>fi-FI</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fr.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fr.xlf</DependentUpon>
+      <culture>fr</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ga-IE.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ga-IE.xlf</DependentUpon>
+      <culture>ga-IE</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.he-IL.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.he-IL.xlf</DependentUpon>
+      <culture>he-IL</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.hi-IN.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.hi-IN.xlf</DependentUpon>
+      <culture>hi-IN</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.hu-HU.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.hu-HU.xlf</DependentUpon>
+      <culture>hu-HU</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.id-ID.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.id-ID.xlf</DependentUpon>
+      <culture>id-ID</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.it.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.it.xlf</DependentUpon>
+      <culture>it</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ja-JP.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ja-JP.xlf</DependentUpon>
+      <culture>ja-JP</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ko-KR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ko-KR.xlf</DependentUpon>
+      <culture>ko-KR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.lt-LT.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.lt-LT.xlf</DependentUpon>
+      <culture>lt-LT</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.lv-LV.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.lv-LV.xlf</DependentUpon>
+      <culture>lv-LV</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.nb-NO.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.nb-NO.xlf</DependentUpon>
+      <culture>nb-NO</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.nl.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.nl.xlf</DependentUpon>
+      <culture>nl</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.pl-PL.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.pl-PL.xlf</DependentUpon>
+      <culture>pl-PL</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.pt.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.pt.xlf</DependentUpon>
+      <culture>pt</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ro-RO.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ro-RO.xlf</DependentUpon>
+      <culture>ro-RO</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ru-RU.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.ru-RU.xlf</DependentUpon>
+      <culture>ru-RU</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sk-SK.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sk-SK.xlf</DependentUpon>
+      <culture>sk-SK</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.sl-SI.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.sl-SI.xlf</DependentUpon>
+      <culture>sl-SI</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.th-TH.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.th-TH.xlf</DependentUpon>
+      <culture>th-TH</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.tr-TR.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.tr-TR.xlf</DependentUpon>
+      <culture>tr-TR</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.uk-UA.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.uk-UA.xlf</DependentUpon>
+      <culture>uk-UA</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.vi-VN.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.vi-VN.xlf</DependentUpon>
+      <culture>vi-VN</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.zh-Hans.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.zh-Hans.xlf</DependentUpon>
+      <culture>zh-Hans</culture>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.zh-Hant.resx">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.zh-Hant.xlf</DependentUpon>
+      <culture>zh-Hant</culture>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\Libraries\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Pics\Misc\" />
+    <Folder Include="Assets\Sounds\Misc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="Resources\AppResources.ar.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ar.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.bg-BG.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.bg-BG.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ca-ES.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ca-ES.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.cs-CZ.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.cs-CZ.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.da-DK.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.da-DK.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.de.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.de.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.el-GR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.el-GR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.en.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.en.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.es.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.es.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.et-EE.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.et-EE.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.fi-FI.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.fi-FI.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.fr.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.fr.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ga-IE.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ga-IE.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.he-IL.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.he-IL.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.hi-IN.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.hi-IN.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.hu-HU.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.hu-HU.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.id-ID.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.id-ID.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.it.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.it.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ja-JP.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ja-JP.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ko-KR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ko-KR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.lt-LT.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.lt-LT.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.lv-LV.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.lv-LV.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.nb-NO.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.nb-NO.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.nl.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.nl.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.pl-PL.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.pl-PL.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.pt.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.pt.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ro-RO.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ro-RO.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.ru-RU.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.ru-RU.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.sk-SK.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.sk-SK.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.sl-SI.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.sl-SI.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.th-TH.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.th-TH.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.tr-TR.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.tr-TR.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.uk-UA.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.uk-UA.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.vi-VN.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.vi-VN.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.zh-Hans.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.zh-Hans.resx</LastGenOutput>
+    </XliffResource>
+    <XliffResource Include="Resources\AppResources.zh-Hant.xlf">
+      <Generator>XliffResxGenerator</Generator>
+      <LastGenOutput>AppResources.zh-Hant.resx</LastGenOutput>
+    </XliffResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common\Common.csproj">
+      <Project>{3083CC3F-42A3-4F2E-A0AC-67820C890156}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

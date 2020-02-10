@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="th-TH" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="BabyApp" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">th-TH</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เพิ่ม</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เมนู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cow" translate="yes" xml:space="preserve">
+          <source>Cow</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วัว</target>
+        </trans-unit>
+        <trans-unit id="Resx/Duck" translate="yes" xml:space="preserve">
+          <source>Duck</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เป็ด</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lion" translate="yes" xml:space="preserve">
+          <source>Lion</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สิงโต</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarBabyMiscButton" translate="yes" xml:space="preserve">
+          <source>Baby Misc</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เด็กเบ็ดเตล็ด</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ช้าง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pig" translate="yes" xml:space="preserve">
+          <source>Pig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Anteater" translate="yes" xml:space="preserve">
+          <source>Anteater</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anteater</target>
+        </trans-unit>
+        <trans-unit id="Resx/Antelope" translate="yes" xml:space="preserve">
+          <source>Antelope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แอนทีโลป</target>
+        </trans-unit>
+        <trans-unit id="Resx/Badger" translate="yes" xml:space="preserve">
+          <source>Badger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Badger</target>
+        </trans-unit>
+        <trans-unit id="Resx/Bear" translate="yes" xml:space="preserve">
+          <source>Bear</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Butterfly" translate="yes" xml:space="preserve">
+          <source>Butterfly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ผีเสื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Capuchinmonkey" translate="yes" xml:space="preserve">
+          <source>Capuchinmonkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Capuchinmonkey</target>
+        </trans-unit>
+        <trans-unit id="Resx/Caribou" translate="yes" xml:space="preserve">
+          <source>Caribou</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caribou</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chameleon" translate="yes" xml:space="preserve">
+          <source>Chameleon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กิ้งก่าเปลียนสี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cheetah" translate="yes" xml:space="preserve">
+          <source>Cheetah</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เสือชีตาห์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crab" translate="yes" xml:space="preserve">
+          <source>Crab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dog" translate="yes" xml:space="preserve">
+          <source>Dog</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สุนัข</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dolphin" translate="yes" xml:space="preserve">
+          <source>Dolphin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลาโลมา</target>
+        </trans-unit>
+        <trans-unit id="Resx/DragonFly" translate="yes" xml:space="preserve">
+          <source>DragonFly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แมลงปอ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Eagle" translate="yes" xml:space="preserve">
+          <source>Eagle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อีเกิล</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elk" translate="yes" xml:space="preserve">
+          <source>Elk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เอิล์คฮิลล์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fish" translate="yes" xml:space="preserve">
+          <source>Fish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fox" translate="yes" xml:space="preserve">
+          <source>Fox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สุนัขจิ้งจอก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Giraffe" translate="yes" xml:space="preserve">
+          <source>Giraffe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ยีราฟ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Guineapig" translate="yes" xml:space="preserve">
+          <source>Guineapig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Guineapig</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hippopotamus" translate="yes" xml:space="preserve">
+          <source>Hippopotamus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ฮิปโป</target>
+        </trans-unit>
+        <trans-unit id="Resx/Horse" translate="yes" xml:space="preserve">
+          <source>Horse</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ม้า</target>
+        </trans-unit>
+        <trans-unit id="Resx/Iguana" translate="yes" xml:space="preserve">
+          <source>Iguana</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อีกัวนา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jaguar" translate="yes" xml:space="preserve">
+          <source>Jaguar</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">จากัวร์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kangaroo" translate="yes" xml:space="preserve">
+          <source>Kangaroo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แกงการู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kitten" translate="yes" xml:space="preserve">
+          <source>Kitten</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลูกแมว</target>
+        </trans-unit>
+        <trans-unit id="Resx/Koala" translate="yes" xml:space="preserve">
+          <source>Koala</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">โคอาลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lemur" translate="yes" xml:space="preserve">
+          <source>Lemur</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลีเมอร์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Macaw" translate="yes" xml:space="preserve">
+          <source>Macaw</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">มาร์คอว์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Marmot" translate="yes" xml:space="preserve">
+          <source>Marmot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Marmot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Monkey" translate="yes" xml:space="preserve">
+          <source>Monkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลิง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Ocelot" translate="yes" xml:space="preserve">
+          <source>Ocelot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ocelot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Octopus" translate="yes" xml:space="preserve">
+          <source>Octopus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลาหมึกยักษ์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Orca" translate="yes" xml:space="preserve">
+          <source>Orca</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orca</target>
+        </trans-unit>
+        <trans-unit id="Resx/Otter" translate="yes" xml:space="preserve">
+          <source>Otter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นาก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Owl" translate="yes" xml:space="preserve">
+          <source>Owl</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นกฮูก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Panda" translate="yes" xml:space="preserve">
+          <source>Panda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมีแพนด้า</target>
+        </trans-unit>
+        <trans-unit id="Resx/Penguin" translate="yes" xml:space="preserve">
+          <source>Penguin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นกเพนกวิน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Prayingmantis" translate="yes" xml:space="preserve">
+          <source>Prayingmantis</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prayingmantis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rabbit" translate="yes" xml:space="preserve">
+          <source>Rabbit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กระต่าย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
+          <source>Raccoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สัตว์คล้ายหมีเล็ก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
+          <source>Redfox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redfox</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redpanda" translate="yes" xml:space="preserve">
+          <source>Redpanda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Redpanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rhino" translate="yes" xml:space="preserve">
+          <source>Rhino</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แรด</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shark" translate="yes" xml:space="preserve">
+          <source>Shark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลาฉลาม</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sheep" translate="yes" xml:space="preserve">
+          <source>Sheep</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แกะ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Skink" translate="yes" xml:space="preserve">
+          <source>Skink</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">จิ้งเหลน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snake" translate="yes" xml:space="preserve">
+          <source>Snake</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">งู</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snowleopard" translate="yes" xml:space="preserve">
+          <source>Snowleopard</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Snowleopard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squid" translate="yes" xml:space="preserve">
+          <source>Squid</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลาหมึก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squirrel" translate="yes" xml:space="preserve">
+          <source>Squirrel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กระรอก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Starfish" translate="yes" xml:space="preserve">
+          <source>Starfish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปลาดาว</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sumatrantiger" translate="yes" xml:space="preserve">
+          <source>Sumatrantiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sumatrantiger</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tayra" translate="yes" xml:space="preserve">
+          <source>Tayra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tayra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tiger" translate="yes" xml:space="preserve">
+          <source>Tiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เสือ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tortoise" translate="yes" xml:space="preserve">
+          <source>Tortoise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เต่า</target>
+        </trans-unit>
+        <trans-unit id="Resx/Walrus" translate="yes" xml:space="preserve">
+          <source>Walrus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วอลรัส</target>
+        </trans-unit>
+        <trans-unit id="Resx/Wolf" translate="yes" xml:space="preserve">
+          <source>Wolf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมาป่า</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เกี่ยวกับ</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ปพลิเคชันเพิ่มเติม</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัวเลือก</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
+          <source>Teaching Tom Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตัวเลือกทอมสอน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
+          <source>Cartoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">การ์ตูน</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageChoices" translate="yes" xml:space="preserve">
+          <source>Languages (Choose up to 3)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาษา (เลือกได้ 3)</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayMusic" translate="yes" xml:space="preserve">
+          <source>Play Music</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่นเพลง</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlaySounds" translate="yes" xml:space="preserve">
+          <source>Play Sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่นเสียง</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อัตรา</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เช่น app นี้ ให้คนอื่นรู้</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know! Rate this app?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เช่น app นี้ ให้คนอื่นรู้ ราคา app นี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
+          <source>Real</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">จริง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Review" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อัตรา</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShowText" translate="yes" xml:space="preserve">
+          <source>Show Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แสดงข้อความ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Alligator" translate="yes" xml:space="preserve">
+          <source>Alligator</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">อัลลิเกเตอร์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crocodile" translate="yes" xml:space="preserve">
+          <source>Crocodile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">จระเข้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Deer" translate="yes" xml:space="preserve">
+          <source>Deer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เดียร์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Donkey" translate="yes" xml:space="preserve">
+          <source>Donkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Frog" translate="yes" xml:space="preserve">
+          <source>Frog</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">กบ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Llama" translate="yes" xml:space="preserve">
+          <source>Llama</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Llama</target>
+        </trans-unit>
+        <trans-unit id="Resx/Camel" translate="yes" xml:space="preserve">
+          <source>Camel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คาเมล</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chimpanzee" translate="yes" xml:space="preserve">
+          <source>Chimpanzee</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ลิงชิมแปนซี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leopard" translate="yes" xml:space="preserve">
+          <source>Leopard</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เสือดาว</target>
+        </trans-unit>
+        <trans-unit id="Resx/Polarbear" translate="yes" xml:space="preserve">
+          <source>Polarbear</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Polarbear</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rooster" translate="yes" xml:space="preserve">
+          <source>Rooster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ระกา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Seagull" translate="yes" xml:space="preserve">
+          <source>Seagull</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ซีกัล</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turkey" translate="yes" xml:space="preserve">
+          <source>Turkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ตุรกี</target>
+        </trans-unit>
+        <trans-unit id="Resx/Zebra" translate="yes" xml:space="preserve">
+          <source>Zebra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ม้าลาย</target>
+        </trans-unit>
+        <trans-unit id="Resx/Bee" translate="yes" xml:space="preserve">
+          <source>Bee</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ผึ้ง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cougar" translate="yes" xml:space="preserve">
+          <source>Cougar</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เสือพูม่า</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goat" translate="yes" xml:space="preserve">
+          <source>Goat</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">แพะ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Gorilla" translate="yes" xml:space="preserve">
+          <source>Gorilaa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gorilaa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hawk" translate="yes" xml:space="preserve">
+          <source>Hawk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เหยี่ยว</target>
+        </trans-unit>
+        <trans-unit id="Resx/Mosquito" translate="yes" xml:space="preserve">
+          <source>Mosquito</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ยุง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Puma" translate="yes" xml:space="preserve">
+          <source>Puma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เสือพูมา</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuPlayButton" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เล่น</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เด็ก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เด็กที่หัดเดิน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สัตว์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาษา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">การเรียนรู้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เด็ก</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เด็กที่หัดเดิน</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สัตว์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ภาษา</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">การเรียนรู้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 130 รูปภาพและเสียง (ฉบับเต็ม)
+* 27 ภาพและเสียง (รุ่นทดลอง)
+* 2 ประเภทแตกต่างกัน
+* การนำเสนอภาพนิ่งสำหรับการเล่นอย่างต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สอนเด็กทารก และเด็กวัยหัดเดินสัตว์ และเสียงของพวกเขาในภาษาต่าง ๆ ถึง 9
+
+คุณสมบัติรวมถึง:
+
+* กว่า 130 รูปภาพและเสียง (ฉบับเต็ม)
+* 27 ภาพและเสียง (รุ่นทดลอง)
+* 2 ประเภทแตกต่างกัน
+* การนำเสนอภาพนิ่งสำหรับการเล่นอย่างต่อเนื่อง
+* ภาพเสียงอธิบาย
+* ภาษา 9
+* ชื่อของสัตว์แต่ละรูป
+
+ดาวน์โหลด app นี้วันนี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทอมสอน</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">นำมาให้คุณโดย:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เครดิต:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เครดิตภาพ:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เครดิตเสียง:</target>
+        </trans-unit>
+        <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
+          <source>Can only select up to 3 languages.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สามารถเลือกภาษาที่ 3</target>
+        </trans-unit>
+        <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
+          <source>Must select at least 1 language.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ต้องเลือกอย่างน้อย 1 ภาษา</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">สวิตช์</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วิธีใช้</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source>days left in your trial.  Do you wish to purchase?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">วันที่เหลืออยู่ในการทดลอง  คุณต้องการซื้อหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เช่น app นี้ ให้คนอื่นรู้  เป็นเราขอขอบคุณคุณ เราจะเพิ่มการ์ตูน 9 ใหม่และรูปภาพสัตว์จริงใหม่ 9 ราคา app นี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
+          <source>To install a speech language on your phone, please follow the insructions below:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">การติดตั้งภาษาพูดในโทรศัพท์ของคุณ โปรดทำตาม insructions ด้านล่าง:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
+          <source>1) Click on 'SETTINGS'.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1) คลิก 'การตั้งค่า'</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
+          <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2) คลิกที่ 'คำพูด' (ภายใต้แท็บ 'ระบบ')</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
+          <source>3) Click on 'SPEECH LANGUAGE'.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3) คลิกที่ 'พูดภาษา'</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
+          <source>4) Click on the language you would like to install and follow the download prompts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4) คลิกที่ภาษาคุณต้องการติดตั้ง และทำตามการดาวน์โหลดเตือน</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
+          <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">หมายเหตุ: การได้ยินคำ navtive tounge ชุดภาษาต้องสามารถติดตั้ง  คลิกที่นี่สำหรับคำแนะนำ</target>
+        </trans-unit>
+        <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">คุณมี </target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ขยายการทดลองหรือไม่</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทดลองของคุณหมดอายุแล้ว กรุณาซื้อแอพลิเคชันได้ 130 รูปภาพและเสียง</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ซื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทดลองใช้หมดอายุ</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
+          <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">เตือน: รุ่นทดลองสอนต้มมา 27 ภาพและเสียง  เพิ่ม 27 เพิ่มเติมรูปภาพและเสียงของรุ่นทดลองเพียงอันดับ app นี้  จะได้รับกว่า 130 รูปภาพและเสียงซื้อ app นี้</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทอมสอน</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
+          <source>Trial has expired.  Please purchase.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ทดลองใช้หมดอายุ  กรุณาซื้อ</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รุ่นทดลองได้ 27 ภาพ/เสียง เวอร์ชันเต็มมีเสียง 135 ภาพ</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">รุ่นทดลองเป็น 54 ภาพ/เสียง เวอร์ชันเต็มมีเสียง 135 ภาพ</target>
+        </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox1" translate="yes" xml:space="preserve">
+          <source>Free version is 12 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 12 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox2" translate="yes" xml:space="preserve">
+          <source>Free version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendFreeVersion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</target>
+        </trans-unit>
+        <trans-unit id="Resx/QuestionMark" translate="yes" xml:space="preserve">
+          <source>QuestionMark</source>
+          <target state="new">QuestionMark</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

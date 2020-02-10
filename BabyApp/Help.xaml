@@ -1,0 +1,39 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="BabyApp.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <Viewbox Stretch="Uniform">
+
+        <Grid x:Name="LayoutRoot" Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" 
+                     FontSize="50" 
+                     HorizontalAlignment="Center" 
+                     Text="{Binding Path=LocalizedResources.AppTitle, Source={StaticResource LocalizedStrings}}"/>
+
+            <ListBox Grid.Row="1" Height="{Binding PhoneHeight}">
+
+                <TextBlock Margin="0,20,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions1, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions2, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions3, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions4, Source={StaticResource LocalizedStrings}}"/>
+                <TextBlock Margin="0,10,0,0" Width="{Binding PhoneWidth}" TextWrapping="Wrap" FontSize="25" HorizontalAlignment="Left" Text="{Binding Path=LocalizedResources.Instructions5, Source={StaticResource LocalizedStrings}}"/>
+            </ListBox>
+        </Grid>
+    </Viewbox>
+</phone:PhoneApplicationPage>

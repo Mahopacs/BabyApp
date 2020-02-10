@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>el-GR</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Προσθέστε</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Στοιχείο μενού</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Αγελάδα</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Πάπια</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Λιοντάρι</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Μωρό Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Ελέφαντας</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Χοίρων</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Anteater</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Αντιλόπη</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Ασβός</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Αρκούδα</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Πεταλούδα</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Καριμπού</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Χαμαιλέοντας</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Τσίτα</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Καβούρι</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Σκυλί</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Δελφίνι</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>DragonFly</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Αετός</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Άλκης</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Ψάρια</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Fox</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Καμηλοπάρδαλη</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Ιπποπόταμος</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Άλογο</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Ιγκουάνα</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Ιαγουάρος</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Καγκουρό</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Γατάκι</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Κοάλα</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Λεμούριος</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Μακώ</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Μαρμότα</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Μαϊμού</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Χταπόδι</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Όρκα</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Βίδρα</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Κουκουβάγια</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Πιγκουίνος</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Κουνέλι</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>RedFox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>RedPanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Ρινόκερος</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Καρχαρίας</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Πρόβατα</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Λιακόνι</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Φίδι</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Καλαμάρια</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Σκίουρος</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Αστερίας</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Τίγρης</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Χελώνα</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Θαλάσσιο ίππο</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Λύκος</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>Σχετικά με</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Περισσότερα Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Επιλογές</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Κινούμενα σχέδια</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Γλώσσες (επιλέξτε μέχρι 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Παίξτε μουσική</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Αναπαραγωγή ήχων</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Πραγματική</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Ποσοστό</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Εμφάνιση κειμένου</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Αλιγάτορα</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Κροκόδειλος</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Ελάφια</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Γάιδαρος</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Βάτραχος</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Λάμα</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Καμήλα</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Χιμπατζής</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Λεοπάρδαλη</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Κι-κιρίκου</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Γλάρος</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Τουρκία</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Ζέβρα</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Μέλισσα</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Cougar</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Κατσίκα</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Γεράκι</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Κουνούπι</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Παιχνίδι</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Μωρό</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Μικρό παιδί</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Ζώα</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Μάθηση</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Μωρό</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Μικρό παιδί</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Ζώα</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Γλώσσα</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Μάθηση</value>
+  </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Ρακούν</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Έφερε σε σας από:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Εικόνα πιστώσεις:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Ήχου πιστώσεις:</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Να επιλέξετε μόνο μέχρι 3 γλώσσες.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Πρέπει να επιλέξετε τουλάχιστον 1 γλώσσα.</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Διδασκαλία Tom επιλογές</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Tom διδασκαλία</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Διακόπτης</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Βοήθεια</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>ημέρες που αφήνονται στη ΔΙΚΗ σας.  Θέλετε να αγοράσετε;</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Για να εγκαταστήσετε μια ομιλία γλώσσα στο τηλέφωνό σας, ακολουθήστε τα παρακάτω insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Κάντε κλικ στο "ΡΥΘΜΊΣΕΙΣ".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Κάντε κλικ στο «Ομιλία» (κάτω από την καρτέλα «Σύστημα»).</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Κάντε κλικ στο "Ομιλία γλώσσα".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Κάντε κλικ στη γλώσσα που θα θέλατε να εγκαταστήσετε και ακολουθήστε τη λήψη ζητά.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Σημείωση: Για να ακούσετε τις λέξεις στην navtive γλώσσα, γλώσσα πακέτο πρέπει να εγκατασταθεί.  Κάντε κλικ εδώ για οδηγίες.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Έχετε </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Επεκτείνει τη δίκη;</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω! Βαθμολογήστε αυτό το app;</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Όπως αυτό το app; Αφήστε όλους τους άλλους ξέρω!  Ως τις ευχαριστίες μας προς εσάς θα προσθέσουμε 9 νέα κινούμενα σχέδια και 9 νέο πραγματικό ζωικών εικόνες. Βαθμολογήστε αυτό το app;</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Αγορά</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Δίκη έχει λήξει</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Διδάξει τα μωρά και τα νήπια ζώα και τους ήχους σε έως και 9 διαφορετικές γλώσσες.
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Πάνω από 130 εικόνες και ήχους (πλήρης έκδοση)
+* 27 εικόνες και ήχους (δοκιμαστική έκδοση)
+* 2 διαφορετικές κατηγορίες
+* Slideshow για συνεχή αναπαραγωγή
+* Περιγραφή φωνή εικόνας
+* 9 διαφορετικές γλώσσες
+* Το όνομα του ζώου για κάθε εικόνα
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>Διδάξει τα μωρά και τα νήπια ζώα και τους ήχους σε έως και 9 διαφορετικές γλώσσες.
+
+Τα χαρακτηριστικά γνωρίσματα περιλαμβάνουν:
+
+* Πάνω από 130 εικόνες και ήχους (πλήρης έκδοση)
+* 27 εικόνες και ήχους (δοκιμαστική έκδοση)
+* 2 διαφορετικές κατηγορίες
+* Slideshow για συνεχή αναπαραγωγή
+* Περιγραφή φωνή εικόνας
+* 9 διαφορετικές γλώσσες
+* Το όνομα του ζώου για κάθε εικόνα
+
+Κατεβάστε αυτό το app σήμερα!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Δίκη σας έχει λήξει, παρακαλώ να αγοράσει την εφαρμογή για να πάρει πάνω από 130 εικόνες και ήχους!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Υπενθύμιση: Διδασκαλία Tom δοκιμαστική έκδοση έρχεται με 27 εικόνες και ήχους.  Να προσθέσετε 27 περισσότερες εικόνες και ήχους να σας δοκιμαστική έκδοση απλά Βαθμολογήστε αυτό το app.  Να πάρει πάνω από 130 εικόνες και ήχοι αγοράζω this app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Tom διδασκαλία</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Δίκη έχει λήξει.  Παρακαλούμε να αγοράσει.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση είναι 27 pics/ήχους. Πλήρης έκδοση είναι 135 φωτογραφίες/ήχους</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Δοκιμαστική έκδοση είναι 54 φωτογραφίες/ήχους. Πλήρης έκδοση είναι 135 φωτογραφίες/ήχους</value>
+  </data>
+</root>

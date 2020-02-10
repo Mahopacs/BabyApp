@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ar</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>عنصر القائمة</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>البقر</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>بطة</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>أسد</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>متفرقات بيبي</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>الفيل</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>خنزير</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>أكل النمل</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>الظبي</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>غرير</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>الدب</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>فراشة</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>كابوتشينمونكي</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>الوعل</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>حرباء</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>الفهد</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>سرطان البحر</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>الكلب</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>دولفين</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>اليعسوب</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>النسر</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>الأيل</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>الأسماك</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>فوكس</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>زرافة</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>جوينيبيج</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>فرس النهر</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>الحصان</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>الاغوانا</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>جاكوار</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>الكنغر</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>الهريرة</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>كوال</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>يمور</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>الببغاء</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>الغرير</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>قرد</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>الاسلوت.</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>الأخطبوط</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>أرك</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>ثعلب الماء</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>البومه</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>باندا</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>البطريق</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>برايينجمانتيس</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>أرنب</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Redfox</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>ريدباندا</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>الكركدن</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>سمك القرش</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>الأغنام</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>سكينك</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>ثعبان</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>Snowleopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>الحبار</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>سنجاب</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>نجم البحر</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>سوماترانتيجير</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>طير</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>النمر</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>السلحفاة</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>الفظ</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>الذئب</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>المزيد من تطبيقات</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>خيارات</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>كارتون</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>اللغات (اختر ما يصل إلى 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>تشغيل الموسيقى</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>قراءة الأصوات</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>ريال مدريد</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>معدل</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>إظهار النص</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>التمساح</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>تمساح</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>الغزلان</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>حمار</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>الضفدع</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>اللاما</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>الجمل</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>شمبانزي</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>ليوبارد</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>بولاربير</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>الديك</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>النورس</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>تركيا</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>حمار وحشي</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>نحلة</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>طراز كوغار</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>ماعز</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>جوريلا</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>هوك</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>البعوض</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>بوما</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>اللعب</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>بيبي</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>طفل صغير</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>الحيوانات</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>التعلم</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>بيبي</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>طفل صغير</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>الحيوانات</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>التعلم</value>
+  </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>الراكون</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>جلبت لك من قبل:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>أسماء المشرفين:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>الصورة الائتمان:</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>ائتمانات الصوت:</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>يمكن فقط تحديد لغات تصل إلى 3.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>يجب تحديد لغة على الأقل 1.</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>خيارات توم التدريس</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>توم التدريس</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>رمز التبديل</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>تعليمات</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>الأيام المتبقية في المحاكمة الخاصة بك.  هل ترغب في شراء؟</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>لتثبيت لغة كلام على الهاتف الخاص بك، الرجاء اتباع إينسروكشنز أدناه:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) انقر فوق 'إعدادات'.</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) انقر على 'الكلام' (ضمن علامة التبويب 'نظام').</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) انقر على 'لغة الكلام'.</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) يطالب انقر فوق اللغة التي ترغب في تثبيت ومتابعة التحميل.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>ملاحظة: من أجل سماع الكلمات في اللسان نافتيفي، يجب تثبيت حزمة اللغة.  انقر هنا للحصول على إرشادات.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>لديك </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>تمديد المحاكمة؟</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف! معدل هذا التطبيق؟</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>مثل هذا التطبيق؟ واسمحوا الجميع يعرف!  كما شكرنا لكم وسوف نضيف الكرتون الجديد 9 و 9 صور حيوانية حقيقية جديدة. معدل هذا التطبيق؟</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>شراء</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>وقد انتهت المحاكمة</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>تعليم الأطفال الرضع والأطفال الصغار الحيوانات وتلك الأصوات في لغات مختلفة تصل إلى 9.
+
+وتشمل الميزات:
+
+* ما يزيد على 130 من الصور والأصوات (النسخة الكاملة)
+* 27 الصور والأصوات (النسخة التجريبية)
+* 2 فئات مختلفة
+* عرض الشرائح لتشغيله باستمرار
+* الصورة الوصف الصوتي
+* 9 لغات مختلفة
+* اسم حيوان لكل صورة
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="Z_Description" xml:space="preserve">
+    <value>تعليم الأطفال الرضع والأطفال الصغار الحيوانات وتلك الأصوات في لغات مختلفة تصل إلى 9.
+
+وتشمل الميزات:
+
+* ما يزيد على 130 من الصور والأصوات (النسخة الكاملة)
+* 27 الصور والأصوات (النسخة التجريبية)
+* 2 فئات مختلفة
+* عرض الشرائح لتشغيله باستمرار
+* الصورة الوصف الصوتي
+* 9 لغات مختلفة
+* اسم حيوان لكل صورة
+
+تحميل هذا التطبيق اليوم!</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>انتهت المحاكمة الخاصة بك، الرجاء شراء التطبيق الحصول على أكثر من 130 من الصور والأصوات!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>تذكير: الإصدار التجريبي توم التدريس يأتي مع 27 من الصور والأصوات.  لإضافة 27 المزيد من الصور والأصوات للإصدار التجريبي ببساطة قي هذا التطبيق.  للحصول على ما يزيد على 130 الصور والأصوات وشراء هذا التطبيق.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>توم التدريس</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>وقد انتهت المحاكمة.  يرجى شراء.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>الإصدار التجريبي هو 27 بلدان جزر المحيط الهادئ/الأصوات. النسخة الكاملة من بلدان جزر المحيط الهادئ 135/الأصوات</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>الإصدار التجريبي هو 54 بلدان جزر المحيط الهادئ/الأصوات. النسخة الكاملة من بلدان جزر المحيط الهادئ 135/الأصوات</value>
+  </data>
+</root>

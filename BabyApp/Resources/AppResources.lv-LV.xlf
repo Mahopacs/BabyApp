@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="lv-LV" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="BabyApp" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1085.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note>
+        </trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en-US</source>
+          <target state="translated">lv-LV</target>
+          <note from="MultilingualBuild" priority="2" annotates="source">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">pievienot</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izvēlnes elements</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cow" translate="yes" xml:space="preserve">
+          <source>Cow</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Govs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Duck" translate="yes" xml:space="preserve">
+          <source>Duck</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pīle</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lion" translate="yes" xml:space="preserve">
+          <source>Lion</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lauva</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarBabyMiscButton" translate="yes" xml:space="preserve">
+          <source>Baby Misc</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bērnu Misc</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elephant" translate="yes" xml:space="preserve">
+          <source>Elephant</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zilonis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Pig" translate="yes" xml:space="preserve">
+          <source>Pig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Cūka</target>
+        </trans-unit>
+        <trans-unit id="Resx/Anteater" translate="yes" xml:space="preserve">
+          <source>Anteater</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anteater</target>
+        </trans-unit>
+        <trans-unit id="Resx/Antelope" translate="yes" xml:space="preserve">
+          <source>Antelope</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Antilope</target>
+        </trans-unit>
+        <trans-unit id="Resx/Badger" translate="yes" xml:space="preserve">
+          <source>Badger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Āpsiene</target>
+        </trans-unit>
+        <trans-unit id="Resx/Bear" translate="yes" xml:space="preserve">
+          <source>Bear</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lācis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Butterfly" translate="yes" xml:space="preserve">
+          <source>Butterfly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tauriņš</target>
+        </trans-unit>
+        <trans-unit id="Resx/Capuchinmonkey" translate="yes" xml:space="preserve">
+          <source>Capuchinmonkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Capuchinmonkey</target>
+        </trans-unit>
+        <trans-unit id="Resx/Caribou" translate="yes" xml:space="preserve">
+          <source>Caribou</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Caribou</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chameleon" translate="yes" xml:space="preserve">
+          <source>Chameleon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hameleons</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cheetah" translate="yes" xml:space="preserve">
+          <source>Cheetah</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gepards</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crab" translate="yes" xml:space="preserve">
+          <source>Crab</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Krabis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dog" translate="yes" xml:space="preserve">
+          <source>Dog</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Suns</target>
+        </trans-unit>
+        <trans-unit id="Resx/Dolphin" translate="yes" xml:space="preserve">
+          <source>Dolphin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Delfīns</target>
+        </trans-unit>
+        <trans-unit id="Resx/DragonFly" translate="yes" xml:space="preserve">
+          <source>DragonFly</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spāre</target>
+        </trans-unit>
+        <trans-unit id="Resx/Eagle" translate="yes" xml:space="preserve">
+          <source>Eagle</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ērglis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Elk" translate="yes" xml:space="preserve">
+          <source>Elk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Elk</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fish" translate="yes" xml:space="preserve">
+          <source>Fish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zivis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Fox" translate="yes" xml:space="preserve">
+          <source>Fox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lapsa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Giraffe" translate="yes" xml:space="preserve">
+          <source>Giraffe</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Žirafe</target>
+        </trans-unit>
+        <trans-unit id="Resx/Guineapig" translate="yes" xml:space="preserve">
+          <source>Guineapig</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Guineapig</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hippopotamus" translate="yes" xml:space="preserve">
+          <source>Hippopotamus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nīlzirgs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Horse" translate="yes" xml:space="preserve">
+          <source>Horse</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zirgs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Iguana" translate="yes" xml:space="preserve">
+          <source>Iguana</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Iguāna</target>
+        </trans-unit>
+        <trans-unit id="Resx/Jaguar" translate="yes" xml:space="preserve">
+          <source>Jaguar</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jaguar</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kangaroo" translate="yes" xml:space="preserve">
+          <source>Kangaroo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ķengurs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Kitten" translate="yes" xml:space="preserve">
+          <source>Kitten</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaķēns</target>
+        </trans-unit>
+        <trans-unit id="Resx/Koala" translate="yes" xml:space="preserve">
+          <source>Koala</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Koala</target>
+        </trans-unit>
+        <trans-unit id="Resx/Lemur" translate="yes" xml:space="preserve">
+          <source>Lemur</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lemurs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Macaw" translate="yes" xml:space="preserve">
+          <source>Macaw</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ARA</target>
+        </trans-unit>
+        <trans-unit id="Resx/Marmot" translate="yes" xml:space="preserve">
+          <source>Marmot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Murkšķis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Monkey" translate="yes" xml:space="preserve">
+          <source>Monkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pērtiķis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Ocelot" translate="yes" xml:space="preserve">
+          <source>Ocelot</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ocelot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Octopus" translate="yes" xml:space="preserve">
+          <source>Octopus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Astoņkājis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Orca" translate="yes" xml:space="preserve">
+          <source>Orca</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Orca</target>
+        </trans-unit>
+        <trans-unit id="Resx/Otter" translate="yes" xml:space="preserve">
+          <source>Otter</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ūdrs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Owl" translate="yes" xml:space="preserve">
+          <source>Owl</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pūce</target>
+        </trans-unit>
+        <trans-unit id="Resx/Panda" translate="yes" xml:space="preserve">
+          <source>Panda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Panda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Penguin" translate="yes" xml:space="preserve">
+          <source>Penguin</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pingvīns</target>
+        </trans-unit>
+        <trans-unit id="Resx/Prayingmantis" translate="yes" xml:space="preserve">
+          <source>Prayingmantis</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Prayingmantis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rabbit" translate="yes" xml:space="preserve">
+          <source>Rabbit</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Trusis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Raccoon" translate="yes" xml:space="preserve">
+          <source>Raccoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jenots</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redfox" translate="yes" xml:space="preserve">
+          <source>Redfox</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">RedFox</target>
+        </trans-unit>
+        <trans-unit id="Resx/Redpanda" translate="yes" xml:space="preserve">
+          <source>Redpanda</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">RedPanda</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rhino" translate="yes" xml:space="preserve">
+          <source>Rhino</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Degunradzis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Shark" translate="yes" xml:space="preserve">
+          <source>Shark</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Haizivs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sheep" translate="yes" xml:space="preserve">
+          <source>Sheep</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aitas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Skink" translate="yes" xml:space="preserve">
+          <source>Skink</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Scinks</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snake" translate="yes" xml:space="preserve">
+          <source>Snake</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Čūska</target>
+        </trans-unit>
+        <trans-unit id="Resx/Snowleopard" translate="yes" xml:space="preserve">
+          <source>Snowleopard</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Snowleopard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squid" translate="yes" xml:space="preserve">
+          <source>Squid</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kalmāri</target>
+        </trans-unit>
+        <trans-unit id="Resx/Squirrel" translate="yes" xml:space="preserve">
+          <source>Squirrel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vāvere</target>
+        </trans-unit>
+        <trans-unit id="Resx/Starfish" translate="yes" xml:space="preserve">
+          <source>Starfish</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Starfish</target>
+        </trans-unit>
+        <trans-unit id="Resx/Sumatrantiger" translate="yes" xml:space="preserve">
+          <source>Sumatrantiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sumatrantiger</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tayra" translate="yes" xml:space="preserve">
+          <source>Tayra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Taira</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tiger" translate="yes" xml:space="preserve">
+          <source>Tiger</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tīģeris</target>
+        </trans-unit>
+        <trans-unit id="Resx/Tortoise" translate="yes" xml:space="preserve">
+          <source>Tortoise</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tortoise</target>
+        </trans-unit>
+        <trans-unit id="Resx/Walrus" translate="yes" xml:space="preserve">
+          <source>Walrus</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valzirgs</target>
+        </trans-unit>
+        <trans-unit id="Resx/Wolf" translate="yes" xml:space="preserve">
+          <source>Wolf</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vilks</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemAbout" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Par</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemMoreApps" translate="yes" xml:space="preserve">
+          <source>More Apps</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vairāk Apps</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppMenuItemOptions" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Opcijas</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppOptions" translate="yes" xml:space="preserve">
+          <source>Teaching Tom Options</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toms mācību iespējas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cartoon" translate="yes" xml:space="preserve">
+          <source>Cartoon</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Karikatūra</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageChoices" translate="yes" xml:space="preserve">
+          <source>Languages (Choose up to 3)</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valodās (izvēlēties līdz 3)</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlayMusic" translate="yes" xml:space="preserve">
+          <source>Play Music</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mūzikas atskaņošana</target>
+        </trans-unit>
+        <trans-unit id="Resx/PlaySounds" translate="yes" xml:space="preserve">
+          <source>Play Sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atskaņot skaņas</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateAppHeader" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Likme</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppPrompt" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piemēram, šī app? Ļaut visiem zināt!</target>
+        </trans-unit>
+        <trans-unit id="Resx/RateTheAppQuestion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know! Rate this app?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piemēram, šī app? Ļaut visiem zināt! Novērtēt šo app?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Real" translate="yes" xml:space="preserve">
+          <source>Real</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Reālā</target>
+        </trans-unit>
+        <trans-unit id="Resx/Review" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Likme</target>
+        </trans-unit>
+        <trans-unit id="Resx/ShowText" translate="yes" xml:space="preserve">
+          <source>Show Text</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Parādīt tekstu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Alligator" translate="yes" xml:space="preserve">
+          <source>Alligator</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aligators</target>
+        </trans-unit>
+        <trans-unit id="Resx/Crocodile" translate="yes" xml:space="preserve">
+          <source>Crocodile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Krokodils</target>
+        </trans-unit>
+        <trans-unit id="Resx/Deer" translate="yes" xml:space="preserve">
+          <source>Deer</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Brieži</target>
+        </trans-unit>
+        <trans-unit id="Resx/Donkey" translate="yes" xml:space="preserve">
+          <source>Donkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ēzelis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Frog" translate="yes" xml:space="preserve">
+          <source>Frog</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Frog</target>
+        </trans-unit>
+        <trans-unit id="Resx/Llama" translate="yes" xml:space="preserve">
+          <source>Llama</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lama</target>
+        </trans-unit>
+        <trans-unit id="Resx/Camel" translate="yes" xml:space="preserve">
+          <source>Camel</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kamielis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Chimpanzee" translate="yes" xml:space="preserve">
+          <source>Chimpanzee</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Šimpanze</target>
+        </trans-unit>
+        <trans-unit id="Resx/Leopard" translate="yes" xml:space="preserve">
+          <source>Leopard</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Leopard</target>
+        </trans-unit>
+        <trans-unit id="Resx/Polarbear" translate="yes" xml:space="preserve">
+          <source>Polarbear</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Polarbear</target>
+        </trans-unit>
+        <trans-unit id="Resx/Rooster" translate="yes" xml:space="preserve">
+          <source>Rooster</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gailis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Seagull" translate="yes" xml:space="preserve">
+          <source>Seagull</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaija</target>
+        </trans-unit>
+        <trans-unit id="Resx/Turkey" translate="yes" xml:space="preserve">
+          <source>Turkey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Turcija</target>
+        </trans-unit>
+        <trans-unit id="Resx/Zebra" translate="yes" xml:space="preserve">
+          <source>Zebra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zebra</target>
+        </trans-unit>
+        <trans-unit id="Resx/Bee" translate="yes" xml:space="preserve">
+          <source>Bee</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bite</target>
+        </trans-unit>
+        <trans-unit id="Resx/Cougar" translate="yes" xml:space="preserve">
+          <source>Cougar</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Puma</target>
+        </trans-unit>
+        <trans-unit id="Resx/Goat" translate="yes" xml:space="preserve">
+          <source>Goat</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kaza</target>
+        </trans-unit>
+        <trans-unit id="Resx/Gorilla" translate="yes" xml:space="preserve">
+          <source>Gorilaa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gorilaa</target>
+        </trans-unit>
+        <trans-unit id="Resx/Hawk" translate="yes" xml:space="preserve">
+          <source>Hawk</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Vanags</target>
+        </trans-unit>
+        <trans-unit id="Resx/Mosquito" translate="yes" xml:space="preserve">
+          <source>Mosquito</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mosquito</target>
+        </trans-unit>
+        <trans-unit id="Resx/Puma" translate="yes" xml:space="preserve">
+          <source>Puma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Puma</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuPlayButton" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atskaņot</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bērnu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toddler</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dzīvnieki</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valodas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mācīšanās</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword1" translate="yes" xml:space="preserve">
+          <source>Baby</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bērnu</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword2" translate="yes" xml:space="preserve">
+          <source>Toddler</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Toddler</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword3" translate="yes" xml:space="preserve">
+          <source>Animals</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dzīvnieki</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword4" translate="yes" xml:space="preserve">
+          <source>Language</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Valodas</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Keyword5" translate="yes" xml:space="preserve">
+          <source>Learning</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mācīšanās</target>
+        </trans-unit>
+        <trans-unit id="Resx/Description" translate="yes" xml:space="preserve">
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Z_Description" translate="yes" xml:space="preserve">
+          <source>Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</source>
+          <target state="new">Teach babies and toddlers animals and their sounds in up to 9 different languages.
+
+Features include:
+
+* Over 130 images and sounds (full version)
+* 27 images and sounds (trial version)
+* 2 different categories
+* Slideshow for continuous play
+* Image voice description
+* 9 different languages
+* Name of animal for each image
+
+Download this app today!</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppTitle" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mācību Toms</target>
+        </trans-unit>
+        <trans-unit id="Resx/BroughtToYouBy" translate="yes" xml:space="preserve">
+          <source>Brought to you by:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kas tev ar:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Credits" translate="yes" xml:space="preserve">
+          <source>Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kredīti:</target>
+        </trans-unit>
+        <trans-unit id="Resx/PictureCredits" translate="yes" xml:space="preserve">
+          <source>Picture Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Attēlu kredīti:</target>
+        </trans-unit>
+        <trans-unit id="Resx/SoundCredits" translate="yes" xml:space="preserve">
+          <source>Sound Credits:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Skaņu filmas veidotāju saraksts:</target>
+        </trans-unit>
+        <trans-unit id="Resx/CanOnlySelectUpTo3Languages" translate="yes" xml:space="preserve">
+          <source>Can only select up to 3 languages.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Var izvēlēties tikai līdz 3 valodām.</target>
+        </trans-unit>
+        <trans-unit id="Resx/MustSelectAtLeast1Language" translate="yes" xml:space="preserve">
+          <source>Must select at least 1 language.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ir jāatlasa vismaz 1 valoda.</target>
+        </trans-unit>
+        <trans-unit id="Resx/SwitchCategories" translate="yes" xml:space="preserve">
+          <source>Switch</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Slēdzis</target>
+        </trans-unit>
+        <trans-unit id="Resx/Help" translate="yes" xml:space="preserve">
+          <source>Help</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">palīgā</target>
+        </trans-unit>
+        <trans-unit id="Resx/DaysLeftInTrial" translate="yes" xml:space="preserve">
+          <source>days left in your trial.  Do you wish to purchase?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">dienas kreisajā jūsu pētījumā.  Vai jūs vēlaties iegādāties?</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrial" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 9 new cartoon and 9 new real animal pictures. Rate this app?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piemēram, šī app? Ļaut visiem zināt!  Kā jums mūsu pateicību mēs pievienosim 9 jaunas multfilmas un 9 jauni reālu dzīvnieku attēli. Novērtēt šo app?</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions1" translate="yes" xml:space="preserve">
+          <source>To install a speech language on your phone, please follow the insructions below:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Uzstādīt runas valodu uz jūsu tālruni, lūdzu, sekojiet zemāk insructions:</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions2" translate="yes" xml:space="preserve">
+          <source>1) Click on 'SETTINGS'.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">1) Noklikšķiniet uz "Iestatījumi".</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions3" translate="yes" xml:space="preserve">
+          <source>2) Click on 'SPEECH' (under the 'SYSTEM' tab).</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">2) Noklikšķiniet uz "Runas" (zem cilnes "Sistēma").</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions4" translate="yes" xml:space="preserve">
+          <source>3) Click on 'SPEECH LANGUAGE'.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">3) Noklikšķiniet uz "Runas valodas".</target>
+        </trans-unit>
+        <trans-unit id="Resx/Instructions5" translate="yes" xml:space="preserve">
+          <source>4) Click on the language you would like to install and follow the download prompts.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">4) Noklikšķiniet uz valodu, kuru vēlaties instalēt un izpildiet lejupielādes uzvedņu.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LanguageNote" translate="yes" xml:space="preserve">
+          <source>NOTE: In order to hear words in navtive tounge, language pack must be installed.  Click here for instructions.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Piezīme: Lai dzird vārdus navtive valoda, valodas pakotne ir jāinstalē.  Uzklikšķināt šeit, lai iegūtu instrukcijas.</target>
+        </trans-unit>
+        <trans-unit id="Resx/Youhave" translate="yes" xml:space="preserve">
+          <source>You have </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Jums ir </target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendTrailPromptHeader" translate="yes" xml:space="preserve">
+          <source>Extend Trial?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Paplašināt izmēģinājuma versija?</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrailHasExpired" translate="yes" xml:space="preserve">
+          <source>Your trial has expired, please purchase the application to get over 130 pictures and sounds!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma versijas termiņš ir beidzies, lūdzu pirkšanas pieteikumu, lai iegūtu vairāk nekā 130 attēlu un skaņu!</target>
+        </trans-unit>
+        <trans-unit id="Resx/Purchase" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pirkšanas</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialHasExpiredHeader" translate="yes" xml:space="preserve">
+          <source>Trial Has Expired</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma termiņa beigām</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessage" translate="yes" xml:space="preserve">
+          <source>Reminder:  Teaching Tom trial version comes with 27 pictures and sounds.  To add 27 more pictures and sounds to your trial version simply rate this app.  To get over 130 pictures and sounds purchase this app.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Atgādinājums: Mācību Toms izmēģinājuma versija nāk ar 27 attēlus un skaņas.  27 Pievienot vairāk attēlus un skaņas, lai savu izmēģinājuma versiju, vienkārši novērtēt šo app.  Lai iegūtu vairāk nekā 130 attēlus un skaņas iegādāties šo app.</target>
+        </trans-unit>
+        <trans-unit id="Resx/InformationalMessageHeader" translate="yes" xml:space="preserve">
+          <source>Teaching Tom</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Mācību Toms</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox1" translate="yes" xml:space="preserve">
+          <source>Trial has expired.  Please purchase.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma termiņa beigām.  Lūdzu iegādāties.</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox2" translate="yes" xml:space="preserve">
+          <source>Trial version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma versija ir 27 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</target>
+        </trans-unit>
+        <trans-unit id="Resx/TrialMessageBox3" translate="yes" xml:space="preserve">
+          <source>Trial version is 54 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Izmēģinājuma versija ir 54 attēli un skaņu. Pilna versija ir 135 attēli un skaņu</target>
+        </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox1" translate="yes" xml:space="preserve">
+          <source>Free version is 12 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 12 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/FreeVersionMessageBox2" translate="yes" xml:space="preserve">
+          <source>Free version is 27 pics/sounds. Full version is 135 pics/sounds</source>
+          <target state="new">Free version is 27 pics/sounds. Full version is 135 pics/sounds</target>
+        </trans-unit>
+        <trans-unit id="Resx/ExtendFreeVersion" translate="yes" xml:space="preserve">
+          <source>Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</source>
+          <target state="new">Like this app? Let everyone else know!  As our thanks to you we will add 5 new cartoon and 5 new real animal pictures. Rate this app?</target>
+        </trans-unit>
+        <trans-unit id="Resx/QuestionMark" translate="yes" xml:space="preserve">
+          <source>QuestionMark</source>
+          <target state="new">QuestionMark</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

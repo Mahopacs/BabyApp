@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>sl-SI</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="AppBarButtonText" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="AppBarMenuItemText" xml:space="preserve">
+    <value>Element menija</value>
+  </data>
+  <data name="Cow" xml:space="preserve">
+    <value>Krava</value>
+  </data>
+  <data name="Duck" xml:space="preserve">
+    <value>Raca</value>
+  </data>
+  <data name="Lion" xml:space="preserve">
+    <value>Lev</value>
+  </data>
+  <data name="AppBarBabyMiscButton" xml:space="preserve">
+    <value>Baby Misc</value>
+  </data>
+  <data name="Elephant" xml:space="preserve">
+    <value>Slon</value>
+  </data>
+  <data name="Pig" xml:space="preserve">
+    <value>Prašič</value>
+  </data>
+  <data name="Anteater" xml:space="preserve">
+    <value>Mravojed</value>
+  </data>
+  <data name="Antelope" xml:space="preserve">
+    <value>Antilopa</value>
+  </data>
+  <data name="Badger" xml:space="preserve">
+    <value>Jazbec</value>
+  </data>
+  <data name="Bear" xml:space="preserve">
+    <value>Medved</value>
+  </data>
+  <data name="Butterfly" xml:space="preserve">
+    <value>Metulj</value>
+  </data>
+  <data name="Capuchinmonkey" xml:space="preserve">
+    <value>Capuchinmonkey</value>
+  </data>
+  <data name="Caribou" xml:space="preserve">
+    <value>Caribou</value>
+  </data>
+  <data name="Chameleon" xml:space="preserve">
+    <value>Kameleon</value>
+  </data>
+  <data name="Cheetah" xml:space="preserve">
+    <value>Gepard</value>
+  </data>
+  <data name="Crab" xml:space="preserve">
+    <value>Rakovice</value>
+  </data>
+  <data name="Dog" xml:space="preserve">
+    <value>Pes</value>
+  </data>
+  <data name="Dolphin" xml:space="preserve">
+    <value>Delfinov</value>
+  </data>
+  <data name="DragonFly" xml:space="preserve">
+    <value>DragonFly</value>
+  </data>
+  <data name="Eagle" xml:space="preserve">
+    <value>Orel</value>
+  </data>
+  <data name="Elk" xml:space="preserve">
+    <value>Losov</value>
+  </data>
+  <data name="Fish" xml:space="preserve">
+    <value>Ribe</value>
+  </data>
+  <data name="Fox" xml:space="preserve">
+    <value>Lisica</value>
+  </data>
+  <data name="Giraffe" xml:space="preserve">
+    <value>Žirafa</value>
+  </data>
+  <data name="Guineapig" xml:space="preserve">
+    <value>Guineapig</value>
+  </data>
+  <data name="Hippopotamus" xml:space="preserve">
+    <value>Povodni konj</value>
+  </data>
+  <data name="Horse" xml:space="preserve">
+    <value>Konj</value>
+  </data>
+  <data name="Iguana" xml:space="preserve">
+    <value>Legvan</value>
+  </data>
+  <data name="Jaguar" xml:space="preserve">
+    <value>Jaguar</value>
+  </data>
+  <data name="Kangaroo" xml:space="preserve">
+    <value>Kenguru</value>
+  </data>
+  <data name="Kitten" xml:space="preserve">
+    <value>Mucek</value>
+  </data>
+  <data name="Koala" xml:space="preserve">
+    <value>Koala</value>
+  </data>
+  <data name="Lemur" xml:space="preserve">
+    <value>Lemur</value>
+  </data>
+  <data name="Macaw" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="Marmot" xml:space="preserve">
+    <value>Svizec</value>
+  </data>
+  <data name="Monkey" xml:space="preserve">
+    <value>Opica</value>
+  </data>
+  <data name="Ocelot" xml:space="preserve">
+    <value>Ocelot</value>
+  </data>
+  <data name="Octopus" xml:space="preserve">
+    <value>Hobotnica</value>
+  </data>
+  <data name="Orca" xml:space="preserve">
+    <value>Orka</value>
+  </data>
+  <data name="Otter" xml:space="preserve">
+    <value>Vidra</value>
+  </data>
+  <data name="Owl" xml:space="preserve">
+    <value>Sova</value>
+  </data>
+  <data name="Panda" xml:space="preserve">
+    <value>Panda</value>
+  </data>
+  <data name="Penguin" xml:space="preserve">
+    <value>Pingvin</value>
+  </data>
+  <data name="Prayingmantis" xml:space="preserve">
+    <value>Prayingmantis</value>
+  </data>
+  <data name="Rabbit" xml:space="preserve">
+    <value>Zajec</value>
+  </data>
+  <data name="Redfox" xml:space="preserve">
+    <value>Pau</value>
+  </data>
+  <data name="Redpanda" xml:space="preserve">
+    <value>Redpanda</value>
+  </data>
+  <data name="Rhino" xml:space="preserve">
+    <value>Rhino</value>
+  </data>
+  <data name="Shark" xml:space="preserve">
+    <value>Morski pes</value>
+  </data>
+  <data name="Sheep" xml:space="preserve">
+    <value>Ovce</value>
+  </data>
+  <data name="Skink" xml:space="preserve">
+    <value>Skink</value>
+  </data>
+  <data name="Snake" xml:space="preserve">
+    <value>Kača</value>
+  </data>
+  <data name="Snowleopard" xml:space="preserve">
+    <value>SnowLeopard</value>
+  </data>
+  <data name="Squid" xml:space="preserve">
+    <value>Lignji</value>
+  </data>
+  <data name="Squirrel" xml:space="preserve">
+    <value>Veverica</value>
+  </data>
+  <data name="Starfish" xml:space="preserve">
+    <value>Zvezda</value>
+  </data>
+  <data name="Sumatrantiger" xml:space="preserve">
+    <value>Sumatrantiger</value>
+  </data>
+  <data name="Tayra" xml:space="preserve">
+    <value>Tayra</value>
+  </data>
+  <data name="Tiger" xml:space="preserve">
+    <value>Tiger</value>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Želvo</value>
+  </data>
+  <data name="Walrus" xml:space="preserve">
+    <value>Mrož</value>
+  </data>
+  <data name="Wolf" xml:space="preserve">
+    <value>Volk</value>
+  </data>
+  <data name="AppMenuItemAbout" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="AppMenuItemMoreApps" xml:space="preserve">
+    <value>Več Apps</value>
+  </data>
+  <data name="AppMenuItemOptions" xml:space="preserve">
+    <value>Možnosti</value>
+  </data>
+  <data name="Cartoon" xml:space="preserve">
+    <value>Risanka</value>
+  </data>
+  <data name="LanguageChoices" xml:space="preserve">
+    <value>Jeziki (izberite do 3)</value>
+  </data>
+  <data name="PlayMusic" xml:space="preserve">
+    <value>Predvajanje glasbe</value>
+  </data>
+  <data name="PlaySounds" xml:space="preserve">
+    <value>Predvajaj zvoke</value>
+  </data>
+  <data name="RateAppHeader" xml:space="preserve">
+    <value>Stopnja</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>Pravi</value>
+  </data>
+  <data name="Review" xml:space="preserve">
+    <value>Stopnja</value>
+  </data>
+  <data name="ShowText" xml:space="preserve">
+    <value>Prikaži besedilo</value>
+  </data>
+  <data name="Alligator" xml:space="preserve">
+    <value>Aligator</value>
+  </data>
+  <data name="Crocodile" xml:space="preserve">
+    <value>Krokodil</value>
+  </data>
+  <data name="Deer" xml:space="preserve">
+    <value>Jelen</value>
+  </data>
+  <data name="Donkey" xml:space="preserve">
+    <value>Osel</value>
+  </data>
+  <data name="Frog" xml:space="preserve">
+    <value>Žaba</value>
+  </data>
+  <data name="Llama" xml:space="preserve">
+    <value>Lame</value>
+  </data>
+  <data name="Camel" xml:space="preserve">
+    <value>Camel</value>
+  </data>
+  <data name="Chimpanzee" xml:space="preserve">
+    <value>Šimpanz</value>
+  </data>
+  <data name="Leopard" xml:space="preserve">
+    <value>Leopard</value>
+  </data>
+  <data name="Polarbear" xml:space="preserve">
+    <value>Polarbear</value>
+  </data>
+  <data name="Rooster" xml:space="preserve">
+    <value>Petelin</value>
+  </data>
+  <data name="Seagull" xml:space="preserve">
+    <value>Galeb</value>
+  </data>
+  <data name="Turkey" xml:space="preserve">
+    <value>Turčija</value>
+  </data>
+  <data name="Zebra" xml:space="preserve">
+    <value>Zebra</value>
+  </data>
+  <data name="Bee" xml:space="preserve">
+    <value>Čebela</value>
+  </data>
+  <data name="Cougar" xml:space="preserve">
+    <value>Cougar</value>
+  </data>
+  <data name="Goat" xml:space="preserve">
+    <value>Kozje</value>
+  </data>
+  <data name="Gorilla" xml:space="preserve">
+    <value>Gorilaa</value>
+  </data>
+  <data name="Hawk" xml:space="preserve">
+    <value>Hawk</value>
+  </data>
+  <data name="Mosquito" xml:space="preserve">
+    <value>Komar</value>
+  </data>
+  <data name="Puma" xml:space="preserve">
+    <value>Puma</value>
+  </data>
+  <data name="AppBarMenuPlayButton" xml:space="preserve">
+    <value>Igra</value>
+  </data>
+  <data name="Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Keyword3" xml:space="preserve">
+    <value>Živali</value>
+  </data>
+  <data name="Keyword4" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Keyword5" xml:space="preserve">
+    <value>Učenje</value>
+  </data>
+  <data name="Z_Keyword1" xml:space="preserve">
+    <value>Baby</value>
+  </data>
+  <data name="Z_Keyword2" xml:space="preserve">
+    <value>Toddler</value>
+  </data>
+  <data name="Z_Keyword3" xml:space="preserve">
+    <value>Živali</value>
+  </data>
+  <data name="Z_Keyword4" xml:space="preserve">
+    <value>Jezik</value>
+  </data>
+  <data name="Z_Keyword5" xml:space="preserve">
+    <value>Učenje</value>
+  </data>
+  <data name="Raccoon" xml:space="preserve">
+    <value>Rakun</value>
+  </data>
+  <data name="BroughtToYouBy" xml:space="preserve">
+    <value>Vam prinaša:</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Krediti:</value>
+  </data>
+  <data name="PictureCredits" xml:space="preserve">
+    <value>Slikovno gradivo::</value>
+  </data>
+  <data name="SoundCredits" xml:space="preserve">
+    <value>Zvok kreditov:</value>
+  </data>
+  <data name="CanOnlySelectUpTo3Languages" xml:space="preserve">
+    <value>Lahko izberete le do 3 jezikih.</value>
+  </data>
+  <data name="MustSelectAtLeast1Language" xml:space="preserve">
+    <value>Izbrati morate vsaj 1 jezika.</value>
+  </data>
+  <data name="AppOptions" xml:space="preserve">
+    <value>Poučevanje Tom možnosti</value>
+  </data>
+  <data name="AppTitle" xml:space="preserve">
+    <value>Poučevanje Tom</value>
+  </data>
+  <data name="SwitchCategories" xml:space="preserve">
+    <value>Stikalo</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>pomoč</value>
+  </data>
+  <data name="DaysLeftInTrial" xml:space="preserve">
+    <value>dni, v vaš poskus.  Ali želite kupiti?</value>
+  </data>
+  <data name="Instructions1" xml:space="preserve">
+    <value>Umestiti jezik govora na telefonu, sledite spodaj insructions:</value>
+  </data>
+  <data name="Instructions2" xml:space="preserve">
+    <value>1) Kliknite na "Nastavitve".</value>
+  </data>
+  <data name="Instructions3" xml:space="preserve">
+    <value>2) Kliknite na "Govor" (pod zavihkom "Sistem").</value>
+  </data>
+  <data name="Instructions4" xml:space="preserve">
+    <value>3) Kliknite na "Govor jezik".</value>
+  </data>
+  <data name="Instructions5" xml:space="preserve">
+    <value>4) Kliknite na jezik, ki bi želeli namestiti in sledite travnato gričevje uren.</value>
+  </data>
+  <data name="LanguageNote" xml:space="preserve">
+    <value>Opomba: Da bi slišali besede v navtive jezik, jezikovni paket mora biti nameščen.  Kliknite tukaj za navodila.</value>
+  </data>
+  <data name="Youhave" xml:space="preserve">
+    <value>Imate </value>
+  </data>
+  <data name="ExtendTrailPromptHeader" xml:space="preserve">
+    <value>Razširiti poskus?</value>
+  </data>
+  <data name="RateTheAppPrompt" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!</value>
+  </data>
+  <data name="RateTheAppQuestion" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo! Ocenite to app?</value>
+  </data>
+  <data name="ExtendTrial" xml:space="preserve">
+    <value>Kot to app? Naj vsi ostali vedo!  Kot je naša hvala vam bomo dodali 9 nove risanke in 9 nove slike resnično živali. Ocenite to app?</value>
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Nakup</value>
+  </data>
+  <data name="TrialHasExpiredHeader" xml:space="preserve">
+    <value>Poskus Has izdihniti</value>
+  </data>
+  <data name="TrailHasExpired" xml:space="preserve">
+    <value>Vaš poskus has izdihniti, prosim nakup uporabe dobiti čez 130 slike in zvoki!</value>
+  </data>
+  <data name="InformationalMessage" xml:space="preserve">
+    <value>Opomnik: Poučevanje Tom poskus prevod priti s 27 slik in zvokov.  Dodati 27 več slik in zvokov poskus prevod preprosto Ocenite to app.  Da bi dobili več kot 130 slike in zvoki nakup to app.</value>
+  </data>
+  <data name="InformationalMessageHeader" xml:space="preserve">
+    <value>Poučevanje Tom</value>
+  </data>
+  <data name="TrialMessageBox1" xml:space="preserve">
+    <value>Poskus has izdihniti.  Prosimo kupiti.</value>
+  </data>
+  <data name="TrialMessageBox2" xml:space="preserve">
+    <value>Poskus prevod je 27 pics/zvoki. Poln prevod je 135 pics/zvoki</value>
+  </data>
+  <data name="TrialMessageBox3" xml:space="preserve">
+    <value>Poskus prevod je 54 pics/zvoki. Poln prevod je 135 pics/zvoki</value>
+  </data>
+</root>
